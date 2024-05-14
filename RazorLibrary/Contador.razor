@@ -1,0 +1,14 @@
+﻿<h1>Contador</h1>
+
+<p> Contador atual: @contador</p>
+
+<button class="btn btn-primary ml-5" @onclick="Incrementar">Clique aqui</button>
+
+@code {
+    private int contador = 0;
+
+    private void Incrementar()
+    {
+        contador++;
+    }
+}
